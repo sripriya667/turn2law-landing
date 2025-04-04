@@ -1,3 +1,5 @@
+
+
 import '../styles/globals.css'; // Ensure this import is present
 
 function MyApp({ Component, pageProps }) {

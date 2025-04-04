@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { FaRegLightbulb, FaHandshake, FaGavel, FaPhoneAlt } from 'react-icons/fa'; // Importing icons
 import styles from '../styles/Home.module.css'; // Import CSS module
@@ -9,7 +10,16 @@ export default function Home() {
     };
     
   return (
+
     <div className={styles.container}>
+      <Head>
+  <title>Turn2Law - Legal Services Platform</title>
+  <meta name="description" content="Your one-stop platform for instant legal consultation and lawyer matchmaking." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Turn2Law" />
+  <meta property="og:description" content="Legal services at your fingertips." />
+  <meta property="og:image" content="/image.png" />
+</Head>
       {/* Header */}
       <header className={styles.header}>
 
