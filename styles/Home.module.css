@@ -68,23 +68,21 @@
   }
 
   .card {
-    width: 100%;
-    flex: none;
+    flex: 1 1 100%;
+    max-width: 90%;
   }
 
   .header {
     font-size: 2rem;
-    height: auto;
-    padding: 1rem;
+    padding-top: 4rem;
   }
 
   .logo {
     width: 60px;
-    top: 10px;
-    left: 10px;
-    max-width: 100%;
-    height: auto;
+    top: 0.5rem;
+    left: 0.5rem;
   }
+
 
   .features,
   .howItWorks,
